@@ -60,7 +60,7 @@ export default {
   			'space-grotesk': [
   				'var(--font-space-grotesk)'
   			]
-  		}
+  		},
   	}
   },
   plugins: [tailwindcssAnimate, typography],
