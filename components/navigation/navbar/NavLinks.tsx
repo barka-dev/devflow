@@ -34,7 +34,7 @@ const NavLinks = ({isMobileNav = false}: {isMobileNav:boolean}) => {
                                 ,"flex items-center justify-start gap-4 bg-transparent p-4")}
                         >
                             <Image src={item.imgUrl} alt={item.label} width={24} height={24} className={cn({"invert-colors": !isActive})}/>
-                            <p className={cn(isActive ? "base-bold": "base-medium", !isMobileNav && "max-lg:hidden")}>{item.label}</p>
+                            <p className={cn(isActive ? "paragraph-semibold sm:base-bold": "paragraph-medium sm:base-medium", !isMobileNav && "max-lg:hidden")}>{item.label}</p>
                         </Link>
                     )
 
